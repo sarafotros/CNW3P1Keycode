@@ -13,6 +13,13 @@ body {
 	height: 100vh;
 	text-align: center;
 }
+.result{
+	/* display: none; */
+}
+
+.show{
+	display: block;
+}
 .btn {
 	width: 50%;
 	font-size: 2rem;
@@ -24,4 +31,26 @@ body {
 	border-left: 4px solid #777777;
 	border-top: 0;
 	border-right: 0;
+}
+
+.events{
+	
+	padding: 0 20px;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: repeat(3 ,1fr);
+	grid-gap: 20px;
+	align-items: center;
+	justify-content: center;
+	 
+}
+.events div {
+	margin: 20pc 20px;
+	border: 2px solid #777777;
+	background-color: aliceblue;
+	display: grid;
+	height: 300px;
+	align-items: center;
+	border-radius: 6px;
+
 }
